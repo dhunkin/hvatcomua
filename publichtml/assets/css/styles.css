@@ -1,0 +1,142 @@
+@import url("reset.css");
+  
+/*General style*/
+html {
+  height: 100%;
+}
+
+body {
+  background: #fff1ce;
+  color: #520f13;
+  font-size: 14px;
+  font-family: sans-serif;
+}
+
+p {
+  font-size: 14px;
+  color: #520f13;
+}
+
+.header {
+  background-image: url('../images/header_fon.png');
+  height: 225px;
+  width: 1170px;
+  margin: 0 auto;
+}
+
+.main-logo{
+  padding-left: 52px;
+  padding-top: 52px;
+}
+
+.stars {
+  background-image: url('../images/stars.png');
+  height: 50px;
+  width: 1170px;
+  margin: 20px 0px 0px 90px;
+}
+
+.welcome-wraper{
+  background-image: url('../images/block1_bg.png');
+  height: 532px;
+  width: 1170px;
+  margin: 0 auto;
+}
+
+.annotation-image {
+  margin-top: 96px;
+  margin-left: 30px;
+  display: inline-block;
+}
+
+.annotation {
+  display: inline-block;
+  float: right;
+  width: 500px;
+}
+
+.annotation-label {
+  font-size: 30px;
+  font-family: Verdana;
+  margin: 25px;
+  text-align: right;
+}
+
+.stars-rev {
+  background-image: url('../images/stars_rev.png');
+  height: 50px;
+  width: 1170px;
+  margin: 0px 0px 20px 90px;
+}
+
+.content {
+  background-image: url('../images/bg_content.png');
+  width: 1170px;
+  margin: 12px 0px 0px 90px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  align-content: space-around;
+}
+
+.category-wraper {
+  width: 350px;
+  height: 550px;
+  background-color: #294a5d;
+  margin: 0 auto;
+  margin-top: 14px;
+  margin-bottom: 14px;
+}
+
+.category-image-wraper {
+  width: 300px;
+  height: 330px;
+  border-radius: 20px;
+  background-color: #f6e3c0;
+  margin: 0 auto;
+  margin-top: 27px;
+}
+
+.category-image-wraper img {
+
+margin: 0 auto;
+}
+
+.category-label {
+  width: 300px;
+  height: 80px;
+  border-radius: 20px;
+  background-color: #f6e3c0;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 33px;
+  align-self: center;
+  font-family: Arial;
+  font-size: 30px;
+  padding-top: 50px;
+}
+
+.dummy-annotation-image{
+  margin-top: 225px;
+  width: 380px;
+  height: 307px;
+  margin-right: 10px;
+}
+
+.stars-over-footer {
+  background-image: url('../images/stars.png');
+  height: 50px;
+  width: 1170px;
+  margin-bottom: 20px;
+  margin: 12px 0px 0px 90px;
+}
+
+.footer {
+  background-image: url('../images/footer_fon.png');
+  height: 225px;
+  width: 1170px;
+  margin: 17px 0px 0px 90px;
+}
+
