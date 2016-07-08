@@ -145,27 +145,9 @@ a:hover {
   width: auto;
 }
 
-/*.content {
-  background: repeating-linear-gradient(
-  -55deg,
-  #fff1ce,
-  #fff1ce 20px,
-  #dd9c8d 20px,
-  #dd9c8d 40px
-  );
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-  align-content: space-around;
-  margin-top: 12px;
-  height: 100%;
-}
-*/
 .content {
   background-image: url('../images/bd-content.png');
-  background-repeat: repeat;
+  background-repeat: no-repeat;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
