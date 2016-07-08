@@ -78,12 +78,14 @@ a:hover {
   font-size: 22px;
   padding: 7px;
   font-family: 'Philosopher', sans-serif;
+  cursor: default;
 }
 
 .language-switcher__item_colortext:hover {
   color: #294a5d;
   font-size: 22px;
   font-family: 'Philosopher', sans-serif;
+  cursor: default;
 }
 
 .stars {
