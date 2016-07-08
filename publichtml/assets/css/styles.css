@@ -168,7 +168,7 @@ a:hover {
   height: 100%;
 }
 
-.category-wrapper {
+.category {
   width: 255px;
   height: 321px;
   background-color: #294a5d;
@@ -177,7 +177,7 @@ a:hover {
   border-radius: 7px;
 }
 
-.category-wrapper:hover {
+.category:hover {
   width: 255px;
   height: 321px;
   background-color: #01324e;
@@ -186,7 +186,7 @@ a:hover {
   border-radius: 7px;
 }
 
-.category-wrapper__image {
+.category__image-wrapper {
   width: 210px;
   height: 210px;
   border-radius: 9px;
@@ -195,7 +195,7 @@ a:hover {
   margin-top: 24px;
 }
 
-.category-wrapper__image:hover {
+.category__image-wrapper:hover {
   width: 210px;
   height: 210px;
   border-radius: 9px;
@@ -204,7 +204,17 @@ a:hover {
   margin-top: 24px;
 }
 
-.category-label {
+.image-wrapper {
+  width: 210px;
+  height: 210px;
+}
+
+.image-wrapper:hover {
+  width: 216px;
+  height: 216px;
+}
+
+.category__label {
   width: 210px;
   height: 35px;
   border-radius: 9px;
@@ -218,7 +228,7 @@ a:hover {
   text-shadow: 3px 3px 3px #aaa;
 }
 
-.category-label:hover {
+.category__label:hover {
   font-size: 25px;
 
 }
