@@ -1,0 +1,310 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  background: #fff1ce;
+  color: #520f13;
+  font-size: 14px;
+  font-family: sans-serif;
+}
+
+a {
+  text-decoration: none;
+  outline: none;
+  color: #520f13;
+  font-size: 14px;
+}
+
+a:hover {
+  text-decoration: none;
+  outline: none;
+  color: #520f13;
+  font-size: 14px;
+}
+
+#wrapper {
+  width: 1170px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.header {
+  background-image: url('../images/header_fon.png');
+  background-repeat: no-repeat;
+  width: auto;
+  height: 175px;
+  margin: 0 auto;
+}
+
+.main-logo {
+  position: absolute;
+  top: 45px;
+  left: 50px;
+}
+
+.language-switcher {
+  position: absolute;
+  top: 52px;
+  right: 30px;
+}
+
+.language-switcher__item {
+  width: 52px;
+  height: 40px;
+  color: #520f13;
+  border: 2px solid #520f13;
+  border-radius: 7px;
+  background: #ffe9c4;
+  font-size: 22px;
+  padding: 7px;
+  font-family: 'Philosopher', sans-serif;
+}
+
+.language-switcher__item:hover {
+  color: #ffe9c4;
+  font-size: 22px;
+  font-family: 'Philosopher', sans-serif;
+  background: #76282c;
+}
+
+.language-switcher__item_colortext {
+  width: 52px;
+  height: 40px;
+  color: #294a5d;
+  border: 2px solid #520f13;
+  border-radius: 7px;
+  background: #ffe9c4;
+  font-size: 22px;
+  padding: 7px;
+  font-family: 'Philosopher', sans-serif;
+  cursor: default;
+}
+
+.language-switcher__item_colortext:hover {
+  color: #294a5d;
+  font-size: 22px;
+  font-family: 'Philosopher', sans-serif;
+  cursor: default;
+}
+
+.stars {
+  background-image: url('../images/stars.png');
+  background-repeat: no-repeat;
+  height: 44px;
+  width: auto;
+  margin: 0 auto;
+  margin-top: 15px;
+}
+
+.content {  
+  width: auto;
+  height: 100%;
+  background-image: url('../images/bg-category-page.png');
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  margin-top: 12px;
+  align-items: center;
+  background-size: 100% 100%;
+}
+
+.annotation__wrapper-image {
+  opacity: 0.4;
+  position: absolute;
+  top: 350px;
+  left: 368px;
+}
+
+.annotation__wrapper {
+  background-color: #fff1ce;
+  background-image: url(../images/strongman_vit-opacity.png);
+  background-repeat: no-repeat;
+  background-position: 50%;
+  border-radius: 12px;
+  padding: 25px;
+  min-height: 420px;
+}
+
+.annotation {
+  width: 936px;
+  height: 100%;
+  background-color: #520f13;
+  border-radius: 15px;
+  padding: 25px;
+  text-align: center;
+  margin: 40px;
+}
+
+.annotation__category-label {
+  font-family: 'Berkshire Swash', cursive;
+  font-size: 35px;
+  color: #2a4f5f;
+  text-shadow: 4px 3px 4px #afafaf;
+}
+
+.annotation__decor {
+  opacity: 0.7;
+}
+
+.annotation__item {
+  padding: 40px;
+}
+
+.annotation__item_text {
+  font-family: 'Philosopher', sans-serif;
+  font-size: 18px;
+  text-align: justify;
+  line-height: 1.2;
+  text-indent: 25px;
+}
+
+.category-label {
+  font-family: 'Pattaya', sans-serif;
+  color: #922922;
+  font-size: 26px;
+  text-shadow: 4px 4px 4px #8e8e8e;
+  letter-spacing: 0.05em;
+  }
+
+.border-top-image {
+  background-image: url('../images/bg-border-item1.png');
+  background-repeat: no-repeat;
+  width: 760px;
+  height: 180px;
+}
+
+.border-top-image_rev {
+  background-image: url('../images/bg-border-item3.png');
+  background-repeat: no-repeat;
+  width: 760px;
+  height: 180px;
+  margin-top: -1px;
+}
+
+.border-top-image_rev-long {
+  background-image: url('../images/bg-border-item3.png');
+  background-repeat: no-repeat;
+  width: 760px;
+  height: 180px;
+  margin-top: -4px;
+}
+
+.records__wrapper {
+  width: 760px;
+  display: flex;
+  background-image: url('../images/bg-border-item2.png');
+  flex-direction: column;
+  align-items: center;
+  background-size: 100% 100%;
+  margin: 0px auto;
+  min-height: 350px;
+}
+
+.records__header {
+  order: 1;
+}
+
+.records__decor {
+  background-image: url('../images/barbell.png');
+  background-repeat: no-repeat;
+  width: 388px;
+  height: 105px;
+  opacity: 0.95
+}
+
+.records__title {
+  font-family: 'Pattaya', sans-serif;
+  font-size: 38px;
+  text-shadow: 4px 4px 4px #8e8e8e;
+  letter-spacing: 0.05em;
+  text-align: center;
+  color: #004b71;
+  margin-top: -30px;
+}
+
+.records__item {
+  order: 2;
+  width: 500px;
+}
+
+.records__item-list {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: -6px;
+}
+
+.records__item_text {
+  font-family: 'Philosopher', sans-serif;
+  font-size: 18px;
+  line-height: 1.2;
+  padding: 15px;
+  text-indent: 12px;
+}
+
+.color-text {
+  color: #064c69;
+  text-shadow: 1px 1px 0px #eee,
+               3px 3px 0px #c7c6c6;
+}
+
+.video-link__icon {
+  width: 20px;
+  height: 28px;
+}
+
+.video-link__icon:hover {
+  width: 21px;
+  height: 29px;
+}
+
+.stars-over-footer {
+  background-image: url('../images/stars.png');
+  background-repeat: no-repeat;
+  width: auto;
+  height: 44px;
+  margin-top: 14px;
+}
+
+.footer {
+  position: relative;
+  background-image: url('../images/footer_fon.png');
+  background-repeat: no-repeat;
+  height: 100px;
+  width: auto;
+  margin-top: 15px;
+  clear: both;
+}
+
+.footer__e-mail {
+  width: 177px;
+  height: 35px;
+  position: absolute;
+  top: 33px;
+  left: 946px;
+  background-color: #ffe5b9;
+  border-radius: 8px;
+  box-shadow: 0px 3px 3px -1px #c0c0c0;
+}
+
+.footer__e-mail-text {
+  font-size: 14px;
+  position: absolute;
+  text-align: center;
+  top: 11px;
+  left: 10px;
+  color: #161716;
+  font-family: 'Rubik', sans-serif;
+}
+
+.footer__e-mail-text:hover {
+  font-size: 14px;
+  position: absolute;
+  text-align: center;
+  top: 11px;
+  left: 10px;
+  color: #161716;
+  font-family: 'Rubik', sans-serif;
+}

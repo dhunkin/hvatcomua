@@ -40,7 +40,10 @@ a:hover {
 }
 
 .main-logo {
-  padding: 52px 0px 0px 52px;
+  position: absolute;
+  top: 52px;
+  left: 52px;
+  /*padding: 52px 0px 0px 52px;*/
 }
 
 .language-switcher {
