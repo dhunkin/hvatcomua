@@ -171,28 +171,31 @@ a:hover {
 .border-top-image {
   background-image: url('../images/bg-border-item1.png');
   background-repeat: no-repeat;
-  width: 760px;
+  width: 1050px;
   height: 180px;
+     /* margin-left: -2px;*/
 }
 
 .border-top-image_rev {
   background-image: url('../images/bg-border-item3.png');
   background-repeat: no-repeat;
-  width: 760px;
+  width: 1050px;
   height: 180px;
-  margin-top: -1px;
+  /*margin-top: -2px;*/
+
 }
 
 .border-top-image_rev-long {
   background-image: url('../images/bg-border-item3.png');
   background-repeat: no-repeat;
-  width: 760px;
+  width: 1050px;
   height: 180px;
   margin-top: -4px;
+      /*margin-left: -1px;*/
 }
 
 .records__wrapper {
-  width: 760px;
+  width: 1050px;
   display: flex;
   background-image: url('../images/bg-border-item2.png');
   flex-direction: column;
@@ -226,7 +229,7 @@ a:hover {
 
 .records__item {
   order: 2;
-  width: 500px;
+  width: 700px;
 }
 
 .records__item-list {
