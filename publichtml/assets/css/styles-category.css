@@ -173,7 +173,6 @@ a:hover {
   background-repeat: no-repeat;
   width: 1050px;
   height: 180px;
-     /* margin-left: -2px;*/
 }
 
 .border-top-image_rev {
@@ -181,8 +180,6 @@ a:hover {
   background-repeat: no-repeat;
   width: 1050px;
   height: 180px;
-  /*margin-top: -2px;*/
-
 }
 
 .border-top-image_rev-long {
@@ -191,7 +188,6 @@ a:hover {
   width: 1050px;
   height: 180px;
   margin-top: -4px;
-      /*margin-left: -1px;*/
 }
 
 .records__wrapper {
